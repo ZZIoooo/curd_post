@@ -43,7 +43,7 @@ class BoardController < ApplicationController
     def delete
         del_post = Post.find(params[:post_id])
         del_post.destroy
-        redirect_to '/index'
+         redirect_to '/index'
     end
     
 end

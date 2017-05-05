@@ -1,6 +1,17 @@
 Rails.application.routes.draw do
 
-  root 'board#new'
+  # root 'board#new'
+  # post 'create'=>'board#create'
+  # get 'index'=>'board#index'
+  # get 'new'=>'board#new'
+  # get 'show/:post_id'=>'board#show'
+  
+  # get 'delete/:post_id'=>'board#delete'
+  # get 'edit/:post_id'=>'board#edit'
+  # post 'update/:post_id'=>'board#update'
+  
+  
+  root 'board#index'
   post 'create'=>'board#create'
   get 'index'=>'board#index'
   get 'new'=>'board#new'
